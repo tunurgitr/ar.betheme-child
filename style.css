@@ -28,17 +28,84 @@ a.button.ar-btn-hollow-dkbg:hover {
 
 /* Testimonials Slider
 -------------------------------------------------------------- */
-
-.testimonials_slider .testimonials_slider_ul a.button {
+.art-testimonial-slider-darkbg .testimonials_slider .testimonials_slider_ul a.button {
     border-width: 0;
     color: white;
     background-color:transparent;
     font-size: 1.5em;
 }
-.testimonials_slider .testimonials_slider_ul li .author span {
+.art-testimonial-slider-darkbg .testimonials_slider .testimonials_slider_ul li .author span {
   color:rgba(255,255,255,0.8) !important;
 }
 
-.testimonials_slider blockquote {
-    color: rgba(255,255,255,0.9);
+.art-testimonial-slider-darkbg  blockquote {
+    color: rgba(255,255,255,0.9) !important;
+}
+.art-testimonial-slider-darkbg h5 {
+    color:white;
+}
+.art-testimonial-slider-darkbg .hr-dots span {
+    color:white !important;
+    background-color:white !important;
+}
+
+.art-testimonial-slider-darkbg .slider_pager.slider_images li {
+    margin:0 10px;
+}
+.art-testimonial-slider-darkbg .slider_pager.slider_images img {
+    border-radius:50%;
+}
+
+
+/******************************
+Services Post Grid
+*******************************/
+.art-services-post-grid h3 a,
+.art-services-post-grid h3 a:visited,
+.art-services-post-grid h3 a:hover
+{
+    color:white;
+}
+.art-services-post-grid .vc_gitem_row.vc_row.vc_gitem-row-position-top {
+    height:100%;
+}
+.art-services-post-grid .vc_gitem_row.vc_row.vc_gitem-row-position-top > div {
+    height:100%;
+    color:rgba(255,255,255,0.8);
+}
+.art-services-post-grid .art-services-title {
+    position:absolute;
+    padding:24px;
+    left:-24px;
+    width:100%;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+/* Video background */
+.video-bg {
+    padding:200px 0;
+}
+.video-bg h1,
+.video-bg h2 {
+    padding: 16px;
+}
+.video-bg h1 {
+    background-color:rgba(0,0,0,0.7);
+}
+.video-bg h2 {
+    background-color:rgba(0,0,0,0.7);
+}
+
+
+
+/*************************************************
+* Child pages
+************************************************/ 
+.page-child.page-template-default #Subheader {
+    background-color: rgba(0, 151, 220,0.6);
+}
+.page-child.page-template-default #Subheader h1.title {
+    text-shadow: 0px 0px 40px rgba(0,0,0,0.9);
 }
